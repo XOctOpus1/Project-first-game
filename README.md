@@ -2,7 +2,7 @@
 
 
 
-### that`s the game area
+### that`s the game area "NOW its testing area"
 
 
 
@@ -10,6 +10,12 @@
 
 
 ![snap2021-10-07-17-34-10](https://user-images.githubusercontent.com/52757595/136414165-3be08888-9abd-4619-98a5-493c2f3f28da.png)
+
+
+
+
+### That the new Game Area
+![Без імені](https://user-images.githubusercontent.com/52757595/140331959-cb6d5c2f-deea-4038-8063-778388487675.png)
 
 
 Also I create first sword for my player
