@@ -2,8 +2,13 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
-    void OnCollisionEnter(Collision collision)
+
+
+    public playerMovement movement;
+
+    void OnCollisionEnter(Collision collisionInfo)
     {
-        Debug.Log("WE hit smth!");
+        if (collisionInfo.collider.tag == "endgame")
+            movement.enabled = false;
     }
 }
