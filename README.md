@@ -5,6 +5,7 @@
 ### that`s the game area "NOW its testing area"
 
 
+![1](https://user-images.githubusercontent.com/52757595/140645674-848751db-3660-4f1d-956e-c77c834f08fd.png)
 
 
 
