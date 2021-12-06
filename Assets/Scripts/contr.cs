@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.AI;
 public class contr : MonoBehaviour
 {
     public CharacterController _controller;
@@ -12,6 +13,10 @@ public class contr : MonoBehaviour
 
     [HideInInspector]
     public bool canMove = true;
+
+ 
+
+
     void Start()
     {
         _controller = GetComponent<CharacterController>();
@@ -39,6 +44,7 @@ public class contr : MonoBehaviour
 
         move.y -= gravity * Time.deltaTime;
         _controller.Move(move * Time.deltaTime);
+      
 
 
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -49,4 +55,6 @@ public class contr : MonoBehaviour
 
 
     
+
+
 }
